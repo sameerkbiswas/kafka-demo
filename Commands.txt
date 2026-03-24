@@ -1,0 +1,80 @@
+  970  kafkajs --version
+  971  cd /Volumes/SKB/Development/Kafka/kafka-demo && ./gradlew build
+  972  cd /Volumes/SKB/Development/Kafka/kafka-demo && ./gradlew build
+  973  ping localhost:9092
+  974  which kafka-server-start
+  975  brew install kafka
+  976  which docker
+  977  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose up -d
+  978  cd /Volumes/SKB/Development/Kafka/kafka-demo && ./gradlew run --args="com.skb.kafka.demo.admin.AdminClientDemo"
+  979  cd /Volumes/SKB/Development/Kafka/kafka-demo && ./gradlew run
+  980  cd /Volumes/SKB/Development/Kafka/kafka-demo && ./gradlew run
+  981  whick kafka-server-start
+  982  which kafka-server-start
+  983  kafka --version
+  984  which java
+  985  kafka --version
+  986  cd /usr/bin
+  987  ls -ltr
+  988  docker exec -it kafka-server kafka-topics.sh --list --bootstrap-server localhost:9092
+  989  docker --version
+  990  docker exec -it kafka kafka-topics.sh --list --bootstrap-server localhost:9092
+  991  docker ps
+  992  docker exec -it priceless_newton kafka-topics.sh --list --bootstrap-server localhost:9092
+  993  docker ps
+  994  docker logs eb266be9d2e6aee5ad86743faa0310607dbb702ba55ed70c43c960c2f1ff5b36
+  995  cls
+  996  clear
+  997  docker logs eb266be9d2e6aee5ad86743faa0310607dbb702ba55ed70c43c960c2f1ff5b36
+  998  ping localhost:9092
+  999  ping 127.0.0.0:9092
+ 1000  ping 127.0.0.1:9092
+ 1001  docker exec -it kafka-server kafka-topics.sh --list --bootstrap-server localhost:9092
+ 1002  docker-compose up -d
+ 1003  docker-compose up -d
+ 1004  docker-compose up -d
+ 1005  docker-compose up -d
+ 1006  which kafka-server-start
+ 1007  brew install kafka
+ 1008  which docker
+ 1009  docker run -d --name kafka -p 9092:9092 -e KAFKA_PROCESS_ROLES=broker,controller -e KAFKA_NODE_ID=1 -e KAFKA_CONTROLLER_QUORUM_VOTERS=1@localhost:9093 -e KAFKA_LISTENERS=PLAINTEXT://:9092,CONTROLLER://:9093 -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092 -e KAFKA_CONTROLLER_LISTENER_NAMES=CONTROLLER -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 -e KAFKA_TRANSACTION_STATE_LOG_MIN_ISR=1 -e KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR=1 confluentinc/cp-kafka:latest
+ 1010  sleep 10
+ 1011  ./gradlew build
+ 1012  ./gradlew run
+ 1013  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose down
+ 1014  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose up -d
+ 1015  cd /Volumes/SKB/Development/Kafka/kafka-demo && ./gradlew build
+ 1016  cd /Volumes/SKB/Development/Kafka/kafka-demo && ./gradlew run
+ 1017  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose logs kafka1
+ 1018  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose ps
+ 1019  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose up -d
+ 1020  cd /Volumes/SKB/Development/Kafka/kafka-demo && sleep 30 && ./gradlew run
+ 1021  cd /Volumes/SKB/Development/Kafka/kafka-demo && ./gradlew run
+ 1022  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose ps
+ 1023  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose ps -a
+ 1024  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose logs kafka1 | tail -50
+ 1025  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose logs kafka1 | tail -100
+ 1026  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose logs kafka2 | tail -50
+ 1027  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose down && docker-compose up -d
+ 1028  cd /Volumes/SKB/Development/Kafka/kafka-demo && sleep 45 && ./gradlew run
+ 1029  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose ps
+ 1030  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose down
+ 1031  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose up -d
+ 1032  cd /Volumes/SKB/Development/Kafka/kafka-demo && ./gradlew build
+ 1033  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose logs kafka1 | tail -20
+ 1034  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose logs kafka2 | tail -10
+ 1035  cd /Volumes/SKB/Development/Kafka/kafka-demo && ./gradlew run
+ 1036  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose ps
+ 1037  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose logs kafka1
+ 1038  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose ps
+ 1039  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose logs kafka2
+ 1040  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose logs kafka3 | tail -20
+ 1041  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose ps -a
+ 1042  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose ps
+ 1043  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose logs | tail -50
+ 1044  docker ps -a | grep kafka
+ 1045  cd /Volumes/SKB/Development/Kafka/kafka-demo && timeout 30 ./gradlew run
+ 1046  cd /Volumes/SKB/Development/Kafka/kafka-demo && ./gradlew run
+ 1047  cd /Volumes/SKB/Development/Kafka/kafka-demo && ./gradlew build
+ 1048  cd /Volumes/SKB/Development/Kafka/kafka-demo && ./gradlew run
+ 1049  cd /Volumes/SKB/Development/Kafka/kafka-demo && docker-compose down

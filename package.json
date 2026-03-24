@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "node": "^25.8.1",
+    "update": "^0.7.4"
+  }
+}
