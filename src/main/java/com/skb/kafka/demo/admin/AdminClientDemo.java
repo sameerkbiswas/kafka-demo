@@ -23,10 +23,10 @@ public class AdminClientDemo {
 
             try {
                 // Create a new topic
-                createTopic(adminClient, Constants.TOPIC_NAME);
+//                createTopic(adminClient, Constants.TOPIC_NAME);
 
                 // List all topics
-//                listTopics(adminClient);
+                listTopics(adminClient);
 
                 // Delete the created topic
 //              deleteTopic(adminClient, Constants.TOPIC_NAME);

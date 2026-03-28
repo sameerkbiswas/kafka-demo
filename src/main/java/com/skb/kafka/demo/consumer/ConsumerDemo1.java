@@ -12,8 +12,8 @@ import org.slf4j.LoggerFactory;
 import java.util.Collections;
 import java.util.Properties;
 
-public class ConsumerDemo {
-    private static final Logger logger = LoggerFactory.getLogger(ConsumerDemo.class);
+public class ConsumerDemo1 {
+    private static final Logger logger = LoggerFactory.getLogger(ConsumerDemo1.class);
 
     static void main() {
         logger.info("Hello from Kafka Consumer!");

@@ -23,7 +23,10 @@ public class ProducerDemoWithKey {
 
         KafkaProducer<String, String> kafkaProducer = new KafkaProducer<>(properties);
 
+        // Created a batch to send the messages.
         for(int j = 0; j < 5; j++) {
+            // Sending messages with keys. The key will determine the partition to which the record will be sent.
+            // Records with the same key will always go to the same partition, which can be useful for ensuring order of processing for related records.
             for (int i = 0; i < 10; i++) {
                 String key = "id_" + i;
                 ProducerRecord<String, String> producerRecord = new ProducerRecord<>(Constants.TOPIC_NAME, key, "Record # " + i);
